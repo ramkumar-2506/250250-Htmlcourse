@@ -1,0 +1,33 @@
+1. Git Configuration:
+  ------------------
+
+git config --global user.name  "saravanan-prog"
+git config --global user.email "saravanan9492@gmail.com"
+
+
+git clone  [entire project setup need to download your local machine]
+---------
+  git clone <repo_url>
+
+
+git pull (sync)
+--------------
+  git pull origin <branch_name>
+
+
+push into file github
+---------------------
+  git status
+  git add <file_name> [add to single file] (or) git add . [all file need to add git tree]
+  git commit -m "product added"
+  git push origin main
+
+
+New local Project need to upload git new repo
+--------------------------------------------
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin <repo_url>
+git push -u origin main
