@@ -1,69 +1,115 @@
 Semantic HTML
 =============
    👉  Semantic HTML uses meaningful tags that clearly describe the purpose of the content.
+   👉  Improves readability of code
+   👉  Better SEO
+   👉  Helps screen readers (accessibility)
+   👉  Easier website structure understanding
 
-   Example:
-   
-        <header> → Header section
-        <footer> → Footer section
+      Example: Instead of using: <div>
+         <header> → Header section
+         <footer> → Footer section
+         
 
-   Instead of using: <div>
+      🏗️ Page Structure Tags
 
+         🔹 <header>	   Top section of a page or section
+         🔹 <nav>	      Navigation links
+         🔹 <main>	   Main content of the page (only one per page)
+         🔹 <section>	Thematic grouping of content
+         🔹 <article>	Independent, self-contained content
+         🔹 <aside>	   Sidebar or related content
+         🔹 <footer>	   Bottom section of a page or section
+      
+      📝 Text Content Semantic Tags
+
+        🔹 <h1> – <h6>	   Headings
+        🔹 <p>	            Paragraph
+        🔹 <strong>    	   Important text
+        🔹 <em>	         Emphasized text
+        🔹 <mark>	         Highlighted text
+        🔹 <small>	      Small print
+        🔹 <blockquote>	   Block quotation
+        🔹 <cite>	         Citation
+        🔹 <q>	            Inline quotation
+        🔹 <abbr>	         Abbreviation
+        🔹 <address>	      Contact information
+        🔹 <time>	         Date/time value
+        🔹 <code>	         Code snippet
+        🔹 <pre>	         Preformatted text
+      
+      📦 Media & Content Tags
+      
+         🔹 <figure>	      Self-contained content (image, chart, etc.)
+         🔹 <figcaption>	Caption for figure
+         🔹 <audio>	      Audio content
+         🔹 <video>	      Video content
+
+      📋 Forms Semantic Tags
+          
+         🔹 <form>	   Form container
+         🔹 <label>	   Label for input
+         🔹 <fieldset>	Group related form elements
+         🔹 <legend>	   Caption for fieldset
+
+      📊 Table Semantic Tags
+          
+         🔹 <table>	Table container
+         🔹 <thead>	Table header
+         🔹 <tbody>	Table body
+         🔹 <tfoot>	Table footer
+         🔹 <th>	Table header cell
 
 🧠 Why Semantic HTML is Important
 ===================================
-   📌 Improves readability of code
-   📌 Better SEO
-   📌 Helps screen readers (accessibility)
-   📌 Easier website structure understanding
+  
+   🔹 <header> Represents introductory content.
 
-🔹 <header> Represents introductory content.
+         Usually contains:
 
-      Usually contains:
+            Website title
+            Logo
+            Heading
+            Navigation (sometimes)
 
-         Website title
-         Logo
-         Heading
-         Navigation (sometimes)
+   🔹 <nav> Contains navigation links.
 
-🔹 <nav> Contains navigation links.
+         <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+         </nav>
 
-      <nav>
-         <a href="#">Home</a>
-         <a href="#">About</a>
-         <a href="#">Contact</a>
-      </nav>
+   🔹 <section> : Represents a section of content.
 
-🔹 <section> : Represents a section of content.
+         <section>
+            <h2>About Us</h2>
+            <p>We are learning HTML.</p>
+         </section>
 
-      <section>
-         <h2>About Us</h2>
-         <p>We are learning HTML.</p>
-      </section>
+   🔹 <article> : Represents independent content.
 
-🔹 <article> : Represents independent content.
+         Examples:
+            Blog post
+            News article
+            Forum post
 
-      Examples:
-         Blog post
-         News article
-         Forum post
-
-         <article>
-            <h2>HTML Basics</h2>
-            <p>This is an article about HTML.</p>
-         </article>
+            <article>
+               <h2>HTML Basics</h2>
+               <p>This is an article about HTML.</p>
+            </article>
 
 
-🔹 <footer> : Represents footer section.
+   🔹 <footer> : Represents footer section.
 
-      Usually contains:
-      Copyright
-      Contact info
-      Author name
+         Usually contains:
+         Copyright
+         Contact info
+         Author name
 
-      <footer>
-         <p>© 2026 My Website</p>
-      </footer>
+         <footer>
+            <p>© 2026 My Website</p>
+         </footer>
 
 
 

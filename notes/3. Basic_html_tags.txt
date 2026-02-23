@@ -63,9 +63,20 @@ Form Tags
     <select>
     <button>
 
+MultiMedia Tags
+================
+🎵 Audio                            - <audio>
+🎬 Video                            - <video>
+🖼️ Images                           - <img>
+🌐 Embedding External Media         - <iframe>
 
 
+Vector Tags
+===========
+    <svg> 
+    <canvas>
 
+        
 
 
 

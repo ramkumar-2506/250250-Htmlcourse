@@ -51,12 +51,14 @@ List Tags in HTML
         3. Go to school
 
     
-     Attributes
-    -----------
+Attributes
+-----------
+    type
         <ol type="1">   <!-- Numbers (default) -->
         <ol type="A">   <!-- Capital Letters -->
         <ol type="a">   <!-- Small Letters -->
         <ol type="I">   <!-- Roman Capitals -->
         <ol type="i">   <!-- Roman Small -->
-
+        
+    Start
         <ol start="5">  <!-- Used to start numbering from a different number. -->
