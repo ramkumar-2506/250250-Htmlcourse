@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Html Forms </title>
+</head>
+
+<body>
+    <h1>Birth certificate Registration</h1>
+
+    <form method="get" action="https://fakestoreapi.com/products" enctype="multipart/form-data">
+
+        <table border="2" align="center">
+            <tr>
+                <td><label for="username">Username <span style="color:red">*</span> </label></td>
+                <td>
+                    <input type="text" name="username" id="username" required value="vijay" />
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="password">password</label></td>
+                <td>
+                    <input type="password" id="password" name="password" value="vijay" />
+                </td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of brith</label></td>
+                <td>
+                    <input type="datetime-local" id="dob" name="dob"  required>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td>
+                    <input type="email" id="email" name="email" value="ss@gmail.com" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="phone">phone number</label></td>
+                <td>
+
+                    <select id="country-code" name="countrycode">
+                        <option value="+91"> +91</option>
+                        <option value="+92">+92</option>
+                        <option value="+0097150">+0097150</option>
+                    </select>
+
+
+
+                    <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}"
+                        placeholder="Enter 10 digit phone number" />
+                </td>
+            </tr>
+
+
+            <tr>
+                <td> <label for="">course list</label></td>
+                <td>
+                    <select id="courses" name="course">
+                        <option value=""> choose the course</option>
+                        <option value="java"> java</option>
+                        <option value="python">python</option>
+                        <option value="oracle">oracle</option>
+                    </select>
+                </td>
+            </tr>
+
+
+
+
+        </table>
+
+
+
+
+
+
+    </form>
+</body>
+
+</html>
